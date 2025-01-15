@@ -13,3 +13,6 @@ Escape Solstara is a multiplayer scavenger hunt game set in a medieval-themed ci
 - AWS Lambda: Handles matchmaking and game session management.
 - AWS Cognito: Provides secure authentication and temporary credentials for players.
 - Large Language Model (LLM): Powers dynamic riddle generation, ensuring each game session offers a new challenge.
+
+<span style="color:red">## STILL UNDER DEVELOPMENT</span>.
+
