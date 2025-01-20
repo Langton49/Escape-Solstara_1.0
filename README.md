@@ -1,6 +1,8 @@
 # ESCAPE SOLSTARA
 Escape Solstara is a multiplayer scavenger hunt game set in a medieval-themed city. Players must compete against each other to find a series of hidden artifacts, guided by riddles that lead them from one artifact to the next. The goal of the game is to be the first to find all the artifacts and reveal a secret passphrase, which grants passage out of the city gates.
 
+**Link To Project:** https://github.com/Langton49/ES_project
+
 ## Features
 - Multiplayer Gameplay: Compete with other players to solve riddles and find artifacts.
 - Dynamic Scavenger Hunts: Riddles are dynamically generated using the ChatGPT API, ensuring a unique experience every time.
