@@ -22,6 +22,7 @@ Escape Solstara is a multiplayer scavenger hunt game set in a medieval-themed ci
 ### Install
 - Download the build folder through the link above.
 - Find the Escape Solstara zip folder and unzip it.
+- Move the Escape Solstara.exe file to the parent folder (the one containing UnityPlayer.dll).
 - Launch the Escape Solstara.exe file.
 ### In-Game
 - Enter the desired number of players and specify how many artifacts each player must find before revealing the passphrase.
