@@ -26,7 +26,7 @@ Escape Solstara is a multiplayer scavenger hunt game set in a medieval-themed ci
 - Launch the Escape Solstara.exe file.
 ### In-Game
 - Enter the desired number of players and specify how many artifacts each player must find before revealing the passphrase.
-- The game will wait for all players to join before presenting the first riddle.
+- The game will wait for all players to join before presenting the first riddle and allowing you to speak with the guardian.
 - Each riddle leads to an artifact hidden within the city.
 - Explore the city to find the artifact, which will be marked by a glowing green arrow when you’re nearby.
 - Once all required artifacts are collected, the passphrase will be revealed.
