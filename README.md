@@ -19,11 +19,11 @@ Escape Solstara is a multiplayer scavenger hunt game set in a medieval-themed ci
 - ChatGPT API: Powers dynamic riddle generation, ensuring each game session offers a new challenge.
 
 ## How To Play:
-# Install
+### Install
 - Download the build folder through the link above.
 - Find the Escape Solstara zip folder and unzip it.
 - Launch the Escape Solstara.exe file.
-# In-Game
+### In-Game
 - Enter the desired number of players and specify how many artifacts each player must find before revealing the passphrase.
 - The game will wait for all players to join before presenting the first riddle.
 - Each riddle leads to an artifact hidden within the city.
