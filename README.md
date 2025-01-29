@@ -129,15 +129,17 @@ git clone https://github.com/Langton49/ES_project.git
 - Explore the city to find the artifact, which will be marked by a glowing green arrow when you’re nearby.
 - Once all required artifacts are collected, the passphrase will be revealed.
 - Approach any statue in the city and enter the passphrase.
-- If correct, you’ll gain the ability to approach a city gate and escape.
-- Each player has access to a chatbot for assistance with riddles or deciphering the passphrase without collecting all artifacts.
+- If correct, you’ll be able to approach a city gate and escape.
+- You may attempt to decipher the passphrase without collecting all artifacts.
 
 ## Contributing 🤝<a name="contributing">
-Because software development is an ongoing and collaborative process, contributions are welcome. Simply create a branch, commit your changes, push to the branch and open a pull request.
+I am currently reworking and improving Escape Solstara by adding new features and optimizing performance, and I would love any help! If you have experience with Unity, game development, or simply want to contribute to making this game bigger and better, feel free to reach out. 
+
+Scroll down to the [Contact](#contact) section and email me—I welcome developers of all skill levels, whether amateur or professional! 🚀
 
 ## Credits 👍 <a name="credits">
 - [SpaderDaBomb](https://www.youtube.com/@spaderdabomb): Comprehensive tutorial on 3rd person character controllers.
-- [Alexandre Bruffa](https://www.youtube.com/@alexandrebruffa): Explanation of how AWS Gamelift works.
+- [Alexandre Bruffa](https://www.youtube.com/@alexandrebruffa): Explanation of how AWS Gamelift works and provided example scripts for AWS Lambda and AWS GameLift.
 - [Tidal Flask Studios](https://www.tidalflask.com/): Provided an immersive sample scene with beautiful city setting from asset store.
 - [Blink Studios](https://blinkstudios.dev/): 3D character game object from asset store.
 
@@ -145,5 +147,6 @@ Because software development is an ongoing and collaborative process, contributi
 __Author:__ Munashe Mukweya\
 __Email:__ munashemukweya2022@gmail.com\
 __GitHub:__ https://github.com/Langton49
+__LinkedIn:__ https://www.linkedin.com/in/munashe-mukweya/
 
 
