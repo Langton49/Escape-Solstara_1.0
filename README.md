@@ -105,12 +105,21 @@ No prerequisites required to launch the pre-built application.
 #### Prerequisites
 - Unity Hub
 - Unity Editor (Version 2022.3.28f)
-- Microsoft Visual Studio (Version 17.9.6)
-- Microsoft .NET Framework (Version 4.8.09037)
-- C# (version 7.3)
-- ChatGPT API key (for the riddle generation and chatbot, you would need your own api key)
+- Microsoft Visual Studio (Version 16.0 or later)
+- Microsoft .NET Framework (Version 4.7.1 or later)
+- C# (Version 7.0 or later)
+- ChatGPT API key (__NB:__ for the riddle generation and chatbot, you would need your own api key)
 
-If you wish to build or view the project folder navigate to the GitHub link located under [Links](#links).
+If you wish to build or view the project folder:
+1. Navigate to the GitHub link located under [Links](#links).
+2. Clone the repository:
+```bash
+git clone https://github.com/Langton49/ES_project.git
+```
+3. Open [Unity Hub](https://docs.unity3d.com/hub/manual/InstallHub.html) (install if not already) and add the project folder.
+4. Open the project (__NB:__ ensure the correct Unity Editor version is installed as other versions may cause issues).
+5. Build and run the Unity project to get the executable application.
+6. Launch the executable and play the game.
 
 ### In-Game <a name="in-game">
 - Enter the desired number of players and specify how many artifacts each player must find before revealing the passphrase.
