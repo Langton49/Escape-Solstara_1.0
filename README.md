@@ -1,7 +1,7 @@
 # ESCAPE SOLSTARA 🏃‍♀️💨
 ![alt text](https://github.com/Langton49/Escape-Solstara_1.0/blob/main/Assets/Title.png "Title Card")
 
-# Table of Contents 📑
+## Table of Contents 📑
 1. [Overview](#overview)
 2. [Links](#links)
 3. [How I Made It](#how-i-made-it)
