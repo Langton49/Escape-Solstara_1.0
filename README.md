@@ -5,12 +5,18 @@
 1. [Overview](#overview)
 2. [Links](#links)
 3. [How I Made It](#how-i-made-it)
-4. [How To Play](#how-to-use)
-    - [Install](#install)
-    - [In-Game](#in-game)
-5. [Contributing](#contributing)
-6. [Credits](#credits)
-7. [Contact](#contact)
+    i. [Tech Stack](#tech-stack)
+   ii. [Features](#features)
+       - [Goal](#goal)
+       - [Dynamic Riddle Generation](#dynamic-riddle-gen)
+       - [The Guardian](#guardian)
+       - [Multiplayer](#multiplayer)
+5. [How To Play](#how-to-use)
+    i. [Install](#install)
+   ii. [In-Game](#in-game)
+6. [Contributing](#contributing)
+7. [Credits](#credits)
+8. [Contact](#contact)
 
 ## Overview 🧙‍♂️ <a name="overview">
 Ah, I see you’ve found yourself trapped within the mystical walls of Solstara, curious adventurer. Welcome, though I must warn you—escape will not come easily. 
@@ -32,18 +38,18 @@ But fear not, should you falter. The city's guardian whispers riddles to those w
 - Microsoft .NET Framework (Version 4.8.09037)
 - C# (version 7.3)
 - Amazon Q Developer
-- AWS GameLift: Used to manage multiplayer sessions and real-time communication between players.
-- AWS Lambda: Handles matchmaking and game session management.
-- AWS Cognito: Provides secure authentication and temporary credentials for players.
-- ChatGPT API: Powers dynamic riddle generation, ensuring each game session offers a new challenge.
+- AWS GameLift
+- AWS Lambda
+- AWS Cognito
+- ChatGPT API
 
 ### Features <a name="features">
-#### Goal
+#### Goal <a name="goal">
 I participated in the AWS Game Builder Challenge, where the goal was to build a game using AWS services. As a beginner with AWS, I initially struggled with deciding what to create. After coming up with 5 ideas, I eventually chose Escape Solstara as the winning idea. 
 
 I wanted to create a multiplayer game that was as competitive and exhilirating as many other popular multiplayer games-Fortnite for example-but with more of a brain-teasing element. The result is Escape Solstara, a scavenger hunt game set in a medieval city, where players must decipher riddles and uncover hidden artifacts to escape.
 
-#### Dynamic Riddle Generation
+#### Dynamic Riddle Generation <a name="dynamic-riddle-gen">
 
 To ensure that each game session felt fresh and unpredictable, I wanted the riddles to be dynamically generated rather than prewritten. Manually writing riddles for hundreds of possible artifacts (objects the player must find to reveal the next clue) would have been both time-consuming and limiting, so I went with the next best thing that's capable of generating content quickly, generative AI. 
 
@@ -51,7 +57,8 @@ I used ChatGPT-4o to generate riddles based on the name of the artifact and its 
 
 The artifacts are assigned at random for each player, in each game session. When all players have entered the lobby the artifacts are loaded and ChatGPT generates riddles for each one.
 
-#### The Guardian
+#### The Guardian <a name="guardian">
+
 
 To keep the game engaging, I designed the riddles to be easy to follow by keeping their format simple in the system prompt. However, since there’s no time limit, I had to consider a case where all the players might get stuck on their respective clues, potentially causing the game to stall indefinitely.
 
@@ -63,7 +70,7 @@ To address this, I implemented The Guardian, a chatbot-style assistant powered b
 
 However, to maintain a challenge, a player can only ask YES or NO questions related to this information. This ensures they receive guidance without making the game too easy.
 
-#### Multiplayer
+#### Multiplayer <a name="multiplayer">
 
 The multiplayer functionality was definitely the most challenging part of this project. This was not only the first fully functional game I've made, but it also had to support multiplayer gameplay. I was not prepared the difficulty of this feature but despite my limited experience, I tackled the challenge head-on and implemented it as best as I could.
 
