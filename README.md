@@ -24,18 +24,23 @@ But fear not, should you falter. The city's guardian whispers riddles to those w
 **Link To Project:** https://github.com/Langton49/ES_project
 
 ## How I Made It 🔨 <a name="how-i-made-it">
+
+### Technology Stack <a name="tech-stack">
+- Unity Editor (Version 2022.3.28f)
+- Microsoft Visual Studio (Version 17.9.6)
+- Microsoft .NET Framework (Version 4.8.09037)
+- C# (version 7.3)
+- Amazon Q Developer
+- AWS GameLift: Used to manage multiplayer sessions and real-time communication between players.
+- AWS Lambda: Handles matchmaking and game session management.
+- AWS Cognito: Provides secure authentication and temporary credentials for players.
+- ChatGPT API: Powers dynamic riddle generation, ensuring each game session offers a new challenge.
+
 ## Features <a name="features">
 - Multiplayer Gameplay: Compete with other players to solve riddles and find artifacts.
 - Dynamic Scavenger Hunts: Riddles are dynamically generated using the ChatGPT API, ensuring a unique experience every time.
 - Chatbot Assistance: Players can interact with an in-game chatbot to receive hints and guidance on solving riddles and locating hidden artifacts.
 - Medieval City Exploration: Explore various locations in a medieval-themed city as you search for the hidden items.
-
-## Technologies <a name="tech-stack">
-- Unity: The game is built using Unity, providing the immersive 3D environment for the medieval city.
-- AWS GameLift: Used to manage multiplayer sessions and real-time communication between players.
-- AWS Lambda: Handles matchmaking and game session management.
-- AWS Cognito: Provides secure authentication and temporary credentials for players.
-- ChatGPT API: Powers dynamic riddle generation, ensuring each game session offers a new challenge.
 
 ## How To Play 🤷‍♂️<a name="how-to-use">
 ### Install <a name="install">
