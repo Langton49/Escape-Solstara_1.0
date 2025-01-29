@@ -9,7 +9,8 @@
     - [Install](#install)
     - [In-Game](#in-game)
 5. [Contributing](#contributing)
-6. [Contact](#contact)
+6. [Credits](#credits)
+7. [Contact](#contact)
 
 ## Overview 🧙‍♂️ <a name="overview">
 Ah, I see you’ve found yourself trapped within the mystical walls of Solstara, curious adventurer. Welcome, though I must warn you—escape will not come easily. 
@@ -36,11 +37,14 @@ But fear not, should you falter. The city's guardian whispers riddles to those w
 - AWS Cognito: Provides secure authentication and temporary credentials for players.
 - ChatGPT API: Powers dynamic riddle generation, ensuring each game session offers a new challenge.
 
-## Features <a name="features">
-- Multiplayer Gameplay: Compete with other players to solve riddles and find artifacts.
-- Dynamic Scavenger Hunts: Riddles are dynamically generated using the ChatGPT API, ensuring a unique experience every time.
-- Chatbot Assistance: Players can interact with an in-game chatbot to receive hints and guidance on solving riddles and locating hidden artifacts.
-- Medieval City Exploration: Explore various locations in a medieval-themed city as you search for the hidden items.
+### Features <a name="features">
+#### Goal
+The task was to build a game using AWS services for thw AWS Game Builder Challenge. I had beginner experience with AWS but I could not figure out what to build. I came up with 5 ideas of what to build and Escape
+Solstara was the winning idea. I wanted to create a multiplayer game that was as competitive and exhilirating as any other multiplayer game like Fortnite but with more of a brain teaser element.
+
+#### Dynamic Riddle Generation
+
+I wanted to produce game sessions where the riddles each player had to solve were different from the last. I didn't want to have prewritten riddles because not only would it have taken a long time to write riddles for the hundreds of items that can be artifacts it would have been very limiting so I went with the next best thing generating content quickly, generative AI. 
 
 ## How To Play 🤷‍♂️<a name="how-to-use">
 ### Install <a name="install">
@@ -60,6 +64,12 @@ But fear not, should you falter. The city's guardian whispers riddles to those w
 
 ## Contributing 🤝<a name="contributing">
 Because software development is an ongoing and collaborative process, contributions are welcome. Simply create a branch, commit your changes, push to the branch and open a pull request.
+
+## Credits 👍 <a name="credits">
+- [SpaderDaBomb](https://www.youtube.com/@spaderdabomb): Comprehensive tutorial on 3rd person character controllers.
+- [Alexandre Bruffa](https://www.youtube.com/@alexandrebruffa): Explanation of how AWS Gamelift works.
+- [Tidal Flask Studios](https://www.tidalflask.com/): Provided an immersive sample scene with beautiful city setting from asset store.
+- [Blink Studios](https://blinkstudios.dev/): 3D character game object from asset store.
 
 ## Contact ✉<a name="contact">
 __Author:__ Munashe Mukweya\
