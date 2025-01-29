@@ -39,12 +39,17 @@ But fear not, should you falter. The city's guardian whispers riddles to those w
 
 ### Features <a name="features">
 #### Goal
-The task was to build a game using AWS services for thw AWS Game Builder Challenge. I had beginner experience with AWS but I could not figure out what to build. I came up with 5 ideas of what to build and Escape
-Solstara was the winning idea. I wanted to create a multiplayer game that was as competitive and exhilirating as any other multiplayer game like Fortnite but with more of a brain teaser element.
+I participated in the AWS Game Builder Challenge, where the goal was to build a game using AWS services. As a beginner with AWS, I initially struggled with deciding what to create. After coming up with 5 ideas, I eventually chose Escape Solstara as the winning idea. 
+
+I wanted to create a multiplayer game that was as competitive and exhilirating as many other popular multiplayer games-Fortnite for example-but with more of a brain-teasing element. The result is Escape Solstara, a scavenger hunt game set in a medieval city, where players must decipher riddles and uncover hidden artifacts to escape.
 
 #### Dynamic Riddle Generation
 
-I wanted to produce game sessions where the riddles each player had to solve were different from the last. I didn't want to have prewritten riddles because not only would it have taken a long time to write riddles for the hundreds of items that can be artifacts it would have been very limiting so I went with the next best thing generating content quickly, generative AI. 
+To ensure that each game session felt fresh and unpredictable, I wanted the riddles to be dynamically generated rather than prewritten. Manually writing riddles for hundreds of possible artifacts (objects the player must find to reveal the next clue) would have been both time-consuming and limiting, so I went with the next best thing that's capable of generating content quickly, generative AI. 
+
+I used ChatGPT-4o to generate riddles based on the name of the artifact and its location in the city. I added descriptions for each area of the city, allowing the model to generate more clever riddles for the player to solve. 
+
+The artifacts are assigned at random for each player, in each game session. When all players have entered the lobby the artifacts are loaded and ChatGPT generates riddles for each one.
 
 ## How To Play 🤷‍♂️<a name="how-to-use">
 ### Install <a name="install">
