@@ -13,7 +13,8 @@
        4. [Multiplayer](#multiplayer)
 5. [How To Play](#how-to-use)
     1. [Install](#install)
-    2. [In-Game](#in-game)
+    2. [Build](#build)
+    3. [In-Game](#in-game)
 6. [Contributing](#contributing)
 7. [Credits](#credits)
 8. [Contact](#contact)
@@ -89,12 +90,28 @@ When the player creates or joins a game, a function is called to connect them to
 While setting up the server-side logic was relatively straightforward, my biggest challenge was translating real-time multiplayer data into smooth on-screen gameplay. Since I initially developed the entire game as an offline single-player experience, I ran into issues where scripts couldn't correctly differentiate between local and remote player prefabs. Debugging the data synchronization between players was arduous, but I eventually figured out an efficient way to send and translate remote player data, making multiplayer functionality possible. 
 
 ## How To Play 🎮<a name="how-to-use">
+
 ### Install <a name="install">
-- Navigate to the Google Drive link located under [Links](#links)
-- Download the build folder through the link above.
-- Find the Escape Solstara zip folder and unzip it.
-- Move the Escape Solstara.exe file to the parent folder (the one containing UnityPlayer.dll).
-- Launch the Escape Solstara.exe file.
+#### Prerequisites
+No prerequisites required to launch the pre-built application.
+
+1. Navigate to the Google Drive link located under [Links](#links)
+2. Download the build folder.
+3. Navigate to the Escape-Solstara_1.0 folder, locate the Escape Solstara zip folder and extract the executable inside.
+4. Move the Escape Solstara.exe file to the parent directory (this will be the one containing the UnityPlayer.dll file).
+5. Launch the Escape Solstara.exe file to play the game.
+
+### Build <a name="build">
+#### Prerequisites
+- Unity Hub
+- Unity Editor (Version 2022.3.28f)
+- Microsoft Visual Studio (Version 17.9.6)
+- Microsoft .NET Framework (Version 4.8.09037)
+- C# (version 7.3)
+- ChatGPT API key (for the riddle generation and chatbot, you would need your own api key)
+
+If you wish to build or view the project folder navigate to the GitHub link located under [Links](#links).
+
 ### In-Game <a name="in-game">
 - Enter the desired number of players and specify how many artifacts each player must find before revealing the passphrase.
 - The game will wait for all players to join before presenting the first riddle and allowing you to speak with the guardian.
