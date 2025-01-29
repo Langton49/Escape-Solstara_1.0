@@ -81,8 +81,6 @@ When the player creates or joins a game, a function is called to connect them to
 
 While setting up the server-side logic was relatively straightforward, my biggest challenge was translating real-time multiplayer data into smooth on-screen gameplay. Since I initially developed the entire game as an offline single-player experience, I ran into issues where scripts couldn't correctly differentiate between local and remote player prefabs. Debugging the data synchronization between players was arduous, but I eventually figured out an efficient way to send and translate remote player data, making multiplayer functionality possible. 
 
-I am incredibly proud that after putting in enough effort, I was able to bring the game to life.
-
 ## How To Play 🎮<a name="how-to-use">
 ### Install <a name="install">
 - Download the build folder through the link above.
