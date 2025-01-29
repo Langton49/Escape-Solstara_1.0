@@ -90,6 +90,7 @@ While setting up the server-side logic was relatively straightforward, my bigges
 
 ## How To Play 🎮<a name="how-to-use">
 ### Install <a name="install">
+- Navigate to the Google Drive link located under [Links](#links)
 - Download the build folder through the link above.
 - Find the Escape Solstara zip folder and unzip it.
 - Move the Escape Solstara.exe file to the parent folder (the one containing UnityPlayer.dll).
