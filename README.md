@@ -146,7 +146,7 @@ Scroll down to the [Contact](#contact) section and email me—I welcome develope
 ## Contact ✉<a name="contact">
 __Author:__ Munashe Mukweya\
 __Email:__ munashemukweya2022@gmail.com\
-__GitHub:__ https://github.com/Langton49
+__GitHub:__ https://github.com/Langton49\
 __LinkedIn:__ https://www.linkedin.com/in/munashe-mukweya/
 
 
