@@ -47,11 +47,43 @@ I wanted to create a multiplayer game that was as competitive and exhilirating a
 
 To ensure that each game session felt fresh and unpredictable, I wanted the riddles to be dynamically generated rather than prewritten. Manually writing riddles for hundreds of possible artifacts (objects the player must find to reveal the next clue) would have been both time-consuming and limiting, so I went with the next best thing that's capable of generating content quickly, generative AI. 
 
-I used ChatGPT-4o to generate riddles based on the name of the artifact and its location in the city. I added descriptions for each area of the city, allowing the model to generate more clever riddles for the player to solve. 
+I used ChatGPT-4o to generate riddles based on the name of the artifact and its location in the city. In the system prompt, I added descriptions for each area of the city, allowing the model to generate more clever riddles for the player to solve. 
 
 The artifacts are assigned at random for each player, in each game session. When all players have entered the lobby the artifacts are loaded and ChatGPT generates riddles for each one.
 
-## How To Play 🤷‍♂️<a name="how-to-use">
+#### The Guardian
+
+To keep the game engaging, I designed the riddles to be easy to follow by keeping their format simple in the system prompt. However, since there’s no time limit, I had to consider a case where all the players might get stuck on their respective clues, potentially causing the game to stall indefinitely.
+
+To address this, I implemented The Guardian, a chatbot-style assistant powered by ChatGPT-4o that helps players solve their riddles. The Guardian has access to key information, including:
+
+- The artifact the player is searching for.
+- The location where it can be found.
+- The preset passphrase needed to escape.
+
+However, to maintain a challenge, a player can only ask YES or NO questions related to this information. This ensures they receive guidance without making the game too easy.
+
+#### Multiplayer
+
+The multiplayer functionality was definitely the most challenging part of this project. This was not only the first fully functional game I've made, but it also had to support multiplayer gameplay. I was not prepared the difficulty of this feature but despite my limited experience, I tackled the challenge head-on and implemented it as best as I could.
+
+The multiplayer functionality is made possible by 3 AWS services:
+
+- Amazon GameLift – Handles game session management and real-time communication
+- AWS Lambda – Manages matchmaking and session management
+- Amazon Cognito – Provides guest access authentication
+
+When the player creates or joins a game, a function is called to connect them to the GameLift server. On the server side: 
+
+1. The game connects to Cognito, creating a Cognito identity to allow guest access.
+2. Once authenticated, an AWS Lambda function is triggered to handle matchmaking and session management through GameLift’s API.
+3. GameLift’s server script manages real-time communication and game logic for all connected player sessions.
+
+While setting up the server-side logic was relatively straightforward, my biggest challenge was translating real-time multiplayer data into smooth on-screen gameplay. Since I initially developed the entire game as an offline single-player experience, I ran into issues where scripts couldn't correctly differentiate between local and remote player prefabs. Debugging the data synchronization between players was arduous, but I eventually figured out an efficient way to send and translate remote player data, making multiplayer functionality possible. 
+
+I am incredibly proud that after putting in enough effort, I was able to bring the game to life.
+
+## How To Play 🎮<a name="how-to-use">
 ### Install <a name="install">
 - Download the build folder through the link above.
 - Find the Escape Solstara zip folder and unzip it.
