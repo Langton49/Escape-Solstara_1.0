@@ -94,7 +94,7 @@ While setting up the server-side logic was relatively straightforward, my bigges
 ### Install <a name="install">
 #### Prerequisites
 No prerequisites required to launch the pre-built application.
-
+#### Instructions
 1. Navigate to the Google Drive link located under [Links](#links)
 2. Download the build folder.
 3. Navigate to the Escape-Solstara_1.0 folder, locate the Escape Solstara zip folder and extract the executable inside.
@@ -110,6 +110,7 @@ No prerequisites required to launch the pre-built application.
 - C# (Version 7.0 or later)
 - ChatGPT API key (__NB:__ for the riddle generation and chatbot, you would need your own api key)
 
+#### Instructions
 If you wish to build or view the project folder:
 1. Navigate to the GitHub link located under [Links](#links).
 2. Clone the repository:
