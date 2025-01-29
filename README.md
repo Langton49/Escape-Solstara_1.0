@@ -12,8 +12,12 @@
 6. [Contact](#contact)
 
 ## Overview 📃 <a name="overview">
-Escape Solstara is a multiplayer scavenger hunt game set in a medieval-themed city. Players must compete against each other to find a series of hidden artifacts, guided by riddles that lead them from one artifact to the next. The goal of the game is to be the first to find all the artifacts and reveal a secret passphrase, which grants passage out of the city gates.
+Ah, I see you’ve found yourself trapped within the mystical walls of Solstara, curious adventurer. Welcome, though I must warn you—escape will not come easily. 
+Scattered across this marvelous city are secrets, riddles each one more perplexing than the last. You and your fellow wanderers must race to uncover the hidden artifacts, each piece a key to your ultimate freedom.
 
+You must heed the riddles scattered across the land, for they will guide you from one artifact to the next. But beware! Only the swiftest shall succeed. Collect all the artifacts, uncover the secret passphrase, and the gates of Solstara will open to you—if you are the first.
+
+But fear not, should you falter. The city's guardian whispers riddles to those who seek guidance, and she is ready to offer assistance. Use your wits, explore the ancient city, show your cunning and __ESCAPE SOLSTARA__.
 ## Links 🔗 <a name="links">
 **Link To Build Folder:** https://drive.google.com/drive/folders/1cA3443J4xZ-ED0Oge7mBRLtq1yLPYdjz?usp=drive_link 
 
