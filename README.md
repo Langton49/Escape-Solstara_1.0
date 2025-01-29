@@ -1,4 +1,4 @@
-# ESCAPE SOLSTARA 🏃‍♀️💨
+# ESCAPE SOLSTARA 🏃‍♀️💨🏰
 ![alt text](https://github.com/Langton49/Escape-Solstara_1.0/blob/main/Assets/Title.png "Title Card")
 
 ## Table of Contents 📑
@@ -12,8 +12,8 @@
        3. [The Guardian](#guardian)
        4. [Multiplayer](#multiplayer)
 5. [How To Play](#how-to-use)
-    i. [Install](#install)
-   ii. [In-Game](#in-game)
+    1. [Install](#install)
+    2. [In-Game](#in-game)
 6. [Contributing](#contributing)
 7. [Credits](#credits)
 8. [Contact](#contact)
