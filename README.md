@@ -11,7 +11,7 @@
 5. [Contributing](#contributing)
 6. [Contact](#contact)
 
-## Overview 📃 <a name="overview">
+## Overview 🧙‍♂️ <a name="overview">
 Ah, I see you’ve found yourself trapped within the mystical walls of Solstara, curious adventurer. Welcome, though I must warn you—escape will not come easily. 
 Scattered across this marvelous city are secrets, riddles each one more perplexing than the last. You and your fellow wanderers must race to uncover the hidden artifacts, each piece a key to your ultimate freedom.
 
