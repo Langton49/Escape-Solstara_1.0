@@ -1,4 +1,5 @@
 # ESCAPE SOLSTARA 🏃‍♀️💨
+![alt text](https://github.com/Langton49/Escape-Solstara_1.0/blob/main/Assets/Title.png "Title Card")
 Escape Solstara is a multiplayer scavenger hunt game set in a medieval-themed city. Players must compete against each other to find a series of hidden artifacts, guided by riddles that lead them from one artifact to the next. The goal of the game is to be the first to find all the artifacts and reveal a secret passphrase, which grants passage out of the city gates.
 
 **Link To Build Folder:** https://drive.google.com/drive/folders/1cA3443J4xZ-ED0Oge7mBRLtq1yLPYdjz?usp=drive_link 
