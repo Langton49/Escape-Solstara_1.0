@@ -137,7 +137,7 @@ I am currently reworking and improving Escape Solstara by adding new features an
 
 Scroll down to the [Contact](#contact) section and email me—I welcome developers of all skill levels, whether amateur or professional! 🚀
 
-## Credits 👍 <a name="credits">
+## Credits 👏 <a name="credits">
 - [SpaderDaBomb](https://www.youtube.com/@spaderdabomb): Comprehensive tutorial on 3rd person character controllers.
 - [Alexandre Bruffa](https://www.youtube.com/@alexandrebruffa): Explanation of how AWS Gamelift works and provided example scripts for AWS Lambda and AWS GameLift.
 - [Tidal Flask Studios](https://www.tidalflask.com/): Provided an immersive sample scene with beautiful city setting from asset store.
