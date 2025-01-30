@@ -93,7 +93,7 @@ While setting up the server-side logic was relatively straightforward, my bigges
 
 ### Install <a name="install">
 #### Prerequisites
-No prerequisites required to launch the pre-built application.
+No prerequisites are required to launch the pre-built application, except that the OS must be Windows.
 #### Instructions
 1. Navigate to the Google Drive link located under [Links](#links)
 2. Download the build folder.
