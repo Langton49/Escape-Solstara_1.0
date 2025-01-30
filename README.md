@@ -97,9 +97,8 @@ No prerequisites required to launch the pre-built application.
 #### Instructions
 1. Navigate to the Google Drive link located under [Links](#links)
 2. Download the build folder.
-3. Navigate to the Escape-Solstara_1.0 folder, locate the Escape Solstara zip folder and extract the executable inside.
-4. Move the Escape Solstara.exe file to the parent directory (this will be the one containing the UnityPlayer.dll file).
-5. Launch the Escape Solstara.exe file to play the game.
+3. Navigate to the Escape-Solstara_1.0 folder.
+4. Locate the Escape Solstara application and launch it to play the game.
 
 ### Build <a name="build">
 #### Prerequisites
