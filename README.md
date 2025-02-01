@@ -1,6 +1,10 @@
 # ESCAPE SOLSTARA 🏃‍♀️💨🏰
 ![alt text](https://github.com/Langton49/Escape-Solstara_1.0/blob/main/Assets/Title.png "Title Card")
 
+🎥 **Gameplay Preview**  
+![Demo GIF](path/to/demo.gif)  
+[📺 Watch Full Demo on YouTube](https://youtube.com/example)
+
 ## Table of Contents 📑
 1. [Overview](#overview)
 2. [Links](#links)
