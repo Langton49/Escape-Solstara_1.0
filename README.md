@@ -3,7 +3,7 @@
 
 ## Table of Contents 📑
 1. [Overview](#overview)
-2. [DEMO](#demo)
+2. [SHORT DEMO](#demo)
 3. [Links](#links)
 4. [How I Made It](#how-i-made-it)
     1. [Tech Stack](#tech-stack)
@@ -28,7 +28,7 @@ You must heed the riddles scattered across the land, for they will guide you fro
 
 But fear not, should you falter. The city's guardian whispers riddles to those who seek guidance, and she is ready to offer assistance. Use your wits, explore the ancient city, show your cunning and __ESCAPE SOLSTARA__.
 
-## 🎥 DEMO <a name="demo">
+## 🎥 SHORT DEMO <a name="demo">
 \
 ![Demo GIF](https://github.com/Langton49/Escape-Solstara_1.0/blob/main/Assets/Demo.gif)  
 ## Links 🔗 <a name="links">
