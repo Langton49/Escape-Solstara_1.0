@@ -63,10 +63,12 @@ To ensure that each game session felt fresh and unpredictable, I wanted the ridd
 
 I used ChatGPT-4o to generate riddles based on the name of the artifact and its location in the city. In the system prompt, I added descriptions for each area of the city, allowing the model to generate more clever riddles for the player to solve. 
 
-The artifacts are assigned at random for each player, in each game session. When all players have entered the lobby the artifacts are loaded and ChatGPT generates riddles for each one.
+The artifacts are assigned at random for each player, in each game session. When all players have entered the lobby the artifacts are loaded and ChatGPT generates riddles for each one.\
+\
+__Example Riddle__
+![alt text]()
 
 #### The Guardian <a name="guardian">
-
 
 To keep the game engaging, I designed the riddles to be easy to follow by keeping their format simple in the system prompt. However, since there’s no time limit, I had to consider a case where all the players might get stuck on their respective clues, potentially causing the game to stall indefinitely.
 
@@ -76,7 +78,10 @@ To address this, I implemented The Guardian, a chatbot-style assistant powered b
 - The location where it can be found.
 - The preset passphrase needed to escape.
 
-However, to maintain a challenge, a player can only ask YES or NO questions related to this information. This ensures they receive guidance without making the game too easy.
+However, to maintain a challenge, a player can only ask YES or NO questions related to this information. This ensures they receive guidance without making the game too easy.\
+\
+__Example Chat With The Guardian__
+![alt text]()
 
 #### Multiplayer <a name="multiplayer">
 
