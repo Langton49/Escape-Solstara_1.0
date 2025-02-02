@@ -1,10 +1,6 @@
 # ESCAPE SOLSTARA 🏃‍♀️💨🏰
 ![alt text](https://github.com/Langton49/Escape-Solstara_1.0/blob/main/Assets/Title.png "Title Card")
 
-🎥 **Gameplay Preview**  
-![Demo GIF](https://github.com/Langton49/Escape-Solstara_1.0/blob/main/Assets/Demo.gif)  
-[📺 Watch Full Demo on YouTube](https://youtube.com/example)
-
 ## Table of Contents 📑
 1. [Overview](#overview)
 2. [Links](#links)
@@ -29,7 +25,11 @@ Scattered across this marvelous city are secrets, riddles each one more perplexi
 
 You must heed the riddles scattered across the land, for they will guide you from one artifact to the next. But beware! Only the swiftest shall succeed. Collect all the artifacts, uncover the secret passphrase, and the gates of Solstara will open to you—if you are the first.
 
-But fear not, should you falter. The city's guardian whispers riddles to those who seek guidance, and she is ready to offer assistance. Use your wits, explore the ancient city, show your cunning and __ESCAPE SOLSTARA__.
+But fear not, should you falter. The city's guardian whispers riddles to those who seek guidance, and she is ready to offer assistance. Use your wits, explore the ancient city, show your cunning and __ESCAPE SOLSTARA__.\
+
+🎥 **Gameplay Preview**\
+\
+![Demo GIF](https://github.com/Langton49/Escape-Solstara_1.0/blob/main/Assets/Demo.gif)  
 ## Links 🔗 <a name="links">
 **Link To Windows Build Folder:** https://drive.google.com/drive/folders/1st__loTjcvds0JxjSHMGuMH3rINWQhqJ?usp=sharing
 
