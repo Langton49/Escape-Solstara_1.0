@@ -66,7 +66,7 @@ I used ChatGPT-4o to generate riddles based on the name of the artifact and its 
 The artifacts are assigned at random for each player, in each game session. When all players have entered the lobby the artifacts are loaded and ChatGPT generates riddles for each one.\
 \
 __Example Riddle__
-![alt text]()
+![alt text](https://github.com/Langton49/Escape-Solstara_1.0/blob/main/Assets/Screenshot%20(6).png "Example Riddle")
 
 #### The Guardian <a name="guardian">
 
@@ -80,8 +80,8 @@ To address this, I implemented The Guardian, a chatbot-style assistant powered b
 
 However, to maintain a challenge, a player can only ask YES or NO questions related to this information. This ensures they receive guidance without making the game too easy.\
 \
-__Example Chat With The Guardian__
-![alt text]()
+__Example Conversation With The Guardian__
+![alt text](https://github.com/Langton49/Escape-Solstara_1.0/blob/main/Assets/02-21-52.gif "Example Chat")
 
 #### Multiplayer <a name="multiplayer">
 
