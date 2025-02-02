@@ -2,7 +2,7 @@
 ![alt text](https://github.com/Langton49/Escape-Solstara_1.0/blob/main/Assets/Title.png "Title Card")
 
 🎥 **Gameplay Preview**  
-![Demo GIF](path/to/demo.gif)  
+![Demo GIF](https://github.com/Langton49/Escape-Solstara_1.0/blob/main/Assets/Demo.gif)  
 [📺 Watch Full Demo on YouTube](https://youtube.com/example)
 
 ## Table of Contents 📑
