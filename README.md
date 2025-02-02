@@ -31,7 +31,9 @@ You must heed the riddles scattered across the land, for they will guide you fro
 
 But fear not, should you falter. The city's guardian whispers riddles to those who seek guidance, and she is ready to offer assistance. Use your wits, explore the ancient city, show your cunning and __ESCAPE SOLSTARA__.
 ## Links 🔗 <a name="links">
-**Link To Build Folder:** https://drive.google.com/drive/folders/1st__loTjcvds0JxjSHMGuMH3rINWQhqJ?usp=sharing
+**Link To Windows Build Folder:** https://drive.google.com/drive/folders/1st__loTjcvds0JxjSHMGuMH3rINWQhqJ?usp=sharing
+
+**Link To MacOS Build Folder:** https://drive.google.com/drive/folders/1R-xGskkL9M7jaHqoKqI206_a2TxUgoAL?usp=sharing
 
 **Link To Project:** https://github.com/Langton49/ES_project
 
@@ -97,12 +99,20 @@ While setting up the server-side logic was relatively straightforward, my bigges
 
 ### Install <a name="install">
 #### Prerequisites
-No prerequisites are required to launch the pre-built application, except that the OS must be Windows.
+No prerequisites are required to launch the pre-built application.
 #### Instructions
 1. Navigate to the Google Drive link located under [Links](#links)
 2. Download the build folder.
-3. Navigate to the Escape-Solstara_1.0 folder.
-4. Locate the Escape Solstara application and launch it to play the game.
+3. For Windows Users:
+   1. Navigate to the Escape-Solstara_1.0 folder.
+   2. Locate the Escape Solstara executable and launch it to play the game.
+4. __Special Instructions for Mac users.__ Because the application was built on Windows, it may not have the proper permissions to run on Mac devices. If you are unable to launch the app first time you'll need to do the following:
+   1. Open a terminal window and navigate to the 'Downloads' directory (or whichever folder you have put the application).
+   2. Run the following command to give the application the proper permissions:
+   ```bash
+   chmod -R 755 Escape-Solstara(mac_build).app
+   ```
+   3. Close the terminal and launch the game to play it.
 
 ### Build <a name="build">
 #### Prerequisites
