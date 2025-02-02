@@ -136,10 +136,11 @@ git clone https://github.com/Langton49/ES_project.git
 6. Launch the executable and play the game.
 
 ### In-Game <a name="in-game">
+- Use WASD to move, and WASD + Shift to sprint.
 - Enter the desired number of players and specify how many artifacts each player must find before revealing the passphrase.
 - The game will wait for all players to join before presenting the first riddle and allowing you to speak with the guardian.
 - Each riddle leads to an artifact hidden within the city.
-- Explore the city to find the artifact, which will be marked by a glowing green arrow when you’re nearby.
+- Explore the city to find the artifact, which will be marked by a glowing green arrow when you’re nearby (Press E to collect artifact).
 - Once all required artifacts are collected, the passphrase will be revealed.
 - Approach any statue in the city and enter the passphrase.
 - If correct, you’ll be able to approach a city gate and escape.
