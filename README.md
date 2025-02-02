@@ -3,8 +3,9 @@
 
 ## Table of Contents 📑
 1. [Overview](#overview)
-2. [Links](#links)
-3. [How I Made It](#how-i-made-it)
+2. [DEMO](#demo)
+3. [Links](#links)
+4. [How I Made It](#how-i-made-it)
     1. [Tech Stack](#tech-stack)
     2. [Features](#features)
        1. [Goal](#goal)
@@ -25,9 +26,9 @@ Scattered across this marvelous city are secrets, riddles each one more perplexi
 
 You must heed the riddles scattered across the land, for they will guide you from one artifact to the next. But beware! Only the swiftest shall succeed. Collect all the artifacts, uncover the secret passphrase, and the gates of Solstara will open to you—if you are the first.
 
-But fear not, should you falter. The city's guardian whispers riddles to those who seek guidance, and she is ready to offer assistance. Use your wits, explore the ancient city, show your cunning and __ESCAPE SOLSTARA__.\
+But fear not, should you falter. The city's guardian whispers riddles to those who seek guidance, and she is ready to offer assistance. Use your wits, explore the ancient city, show your cunning and __ESCAPE SOLSTARA__.
 
-🎥 **Gameplay Preview**\
+## 🎥 DEMO <a name="demo">
 \
 ![Demo GIF](https://github.com/Langton49/Escape-Solstara_1.0/blob/main/Assets/Demo.gif)  
 ## Links 🔗 <a name="links">
