@@ -103,7 +103,7 @@ No prerequisites are required to launch the pre-built application.
 #### Instructions
 1. Navigate to the Google Drive link located under [Links](#links)
 2. Download the build folder.
-3. For Windows Users:
+3. __For Windows Users:__
    1. Navigate to the Escape-Solstara_1.0 folder.
    2. Locate the Escape Solstara executable and launch it to play the game.
 4. __Special Instructions for Mac users.__ Because the application was built on Windows, it may not have the proper permissions to run on Mac devices. If you are unable to launch the app first time you'll need to do the following:
